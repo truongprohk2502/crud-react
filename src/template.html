@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 text-center">Member Managerment Project using ReactJS</h1>
+            <p class="lead text-center">with JSON data</p>
+            <hr class="w-100" />
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-inline">
+            <input type="text" class="form-control w-50" id="" aria-describedby="helpId" placeholder="Enter words..." />
+            <button class="btn btn-info">Search</button>
+        </div>
+        <hr class="w-100" />
+        <div class="row">
+            <!-- table -->
+            <div class="col-sm-12 col-md-8">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">STT</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Role</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Cristiano Ronaldo</td>
+                            <td>016545464</td>
+                            <td>Attacker</td>
+                            <td>
+                                <button type="button" class="btn btn-warning btn-sm"><i
+                                        class="fa fa-pencil-square-o"></i> Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+                                    Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Sergio Ramos</td>
+                            <td>016545464</td>
+                            <td>Defender</td>
+                            <td>
+                                <button type="button" class="btn btn-warning btn-sm"><i
+                                        class="fa fa-pencil-square-o"></i> Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+                                    Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Keylor Navas</td>
+                            <td>016545464</td>
+                            <td>Goalkeeper</td>
+                            <td>
+                                <button type="button" class="btn btn-warning btn-sm"><i
+                                        class="fa fa-pencil-square-o"></i> Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+                                    Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- End table -->
+            <!-- Add form -->
+            <div class="col-sm-12 col-md-4">
+                <form>
+                    <div class="card">
+                        <h5 class="card-header">Add new user to system</h5>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Username" id="fUser" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Phone" id="fPhone" />
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" id="fRole">
+                                    <option value="goalkeeper">Goalkeeper</option>
+                                    <option value="defender">Defender</option>
+                                    <option value="Attacker">Attacker</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block btn-primary">Add new</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- End Add form -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
